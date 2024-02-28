@@ -1,0 +1,27 @@
+{
+  "name": "esbuild-mess-reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node build/dev.js",
+    "publish": "node build/publish.js"
+  },
+  "keywords": [],
+  "author": "Gitig11",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.18.14",
+    "esbuild-plugin-path-alias": "^1.0.7",
+    "esbuild-stylus-loader": "^0.4.2",
+    "gh-pages": "^5.0.0",
+    "stylus": "^0.59.0"
+  },
+  "dependencies": {
+    "@ppzp/utils.rc": "^0.2.4",
+    "epubjs": "^0.3.93",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "state_mini": "^0.1.0"
+  }
+}

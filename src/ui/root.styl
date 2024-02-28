@@ -1,0 +1,19 @@
+.mess_reader_root
+  height: 100vh
+  display: flex
+  & > .boxx
+    flex: 1
+  header
+    --height: 3rem
+  section
+    &.book, &.open
+      height: calc(100% - 3rem)
+  .loading_book
+    position: fixed
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    display: flex
+    align-items: center
+    justify-content: center
