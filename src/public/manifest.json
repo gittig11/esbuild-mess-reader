@@ -2,7 +2,7 @@
   "name": "epub 阅读器",
   "lang": "zh-CN",
   "display": "standalone",
-  "start_url": "/mess-reader/",
+  "start_url": "/esbuild-mess-reader/",
   "icons": [
     {
       "src": "icon/192.png",
@@ -17,7 +17,7 @@
   ],
   "file_handlers": [
     {
-      "action": "/mess-reader/",
+      "action": "/esbuild-mess-reader/",
       "accept": {
         "application/epub+zip": [
           ".epub"
